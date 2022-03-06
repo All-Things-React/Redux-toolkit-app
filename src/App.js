@@ -1,10 +1,16 @@
 /** @format */
 
 import React from 'react';
-import './App.css';
+import Auth from './components/Auth';
+import Layout from './components/Layout';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      {/* <Auth /> */}
+      <Layout />
+    </div>
+  );
 }
 
 export default App;
